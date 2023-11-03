@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  min-width: 100%;
+
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+
+  background-color: #dfdfdf;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 55px 35px;
+
+  max-width: 875px;
+
+  background-color: #ffffff;
+
+  border-radius: 0.8rem;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 5px 9px -4px;
+}
+
+.app-container h1 {
+  font-size: 2.5rem;
+
+  color: #2b2f35;
+  margin-bottom: 15px;
+
+  letter-spacing: 2px;
+}
+
+.app-container h1 span {
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke: 2px #037d96;
+
+}
+
+.container-search {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 15px;
+}
+
+.container-search form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1.2rem;
+
+  margin-bottom: 15px;
+}
+
+.inputSearch {
+  width: 222px;
+  height: 35px;
+
+  padding: 0.6rem 0.3rem;
+
+  background: transparent;
+  border-radius: 0.5rem;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.inputSearch:placeholder-shown {
+  text-align: center;
+}
+
+.inputSearch:focus {
+  border: 1px solid blue;
+}
+
+.btn {
+  padding: 0.6rem 0.3rem;
+
+  color: #fff;
+
+  background-color: #119ab6;
+
+  border-radius: 0.3rem;
+
+  width: 150px;
+
+  letter-spacing: 1px;
+
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #0c6f83;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  
+}

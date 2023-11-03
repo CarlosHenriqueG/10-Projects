@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Poppins', sans-serif;
+
+  background-color: #e7e7e7;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+
+  margin-bottom: 0.3rem;
+}
+
+h4 {
+  color: #1d1d20;
+  letter-spacing: 1px;
+}
+
+h1 {
+  color: #28282b;
+  letter-spacing: 1px;
+}
+
+h5 {
+  text-align: center;
+}
+
+.app {
+  width: 950px;
+  height: 550px;
+
+  background-color: #fff;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+
+
+  border-radius: 0.2rem;
+
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas: 
+  "a b b"
+  "a b b"
+  "a b b";
+  grid-area: b;
+}
+
+.navigation-recipes {
+  background-color: #eeeeee;
+
+  padding: 1rem;
+  overflow: auto;
+  height: 100%;
+
+  text-align: center;
+  grid-area: a;
+}
+
+.recipe {
+  cursor: pointer;
+
+  padding: .5rem;
+  /* border: 2px solid #bdbdbd; */
+  border-radius: 0.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.recipe:hover {
+  background-color: #bdbdbd;
+}
+
+.info-recipe {
+  min-height: 540px;
+  overflow: auto;
+
+}
+
+.view-recipe {
+  padding: 1rem;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.view-recipe h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.improve {
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+
+  max-height: 400px;
+  max-width: 450px;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.view-recipe p {
+  width: 85%;
+  margin-bottom: 1rem;
+}
+
+.view-recipe ul {
+  text-align: start;
+}
+
+small {
+  display: grid;
+  place-content: center;
+
+  font-weight: 600;
+
+  opacity: 0.3;
+}

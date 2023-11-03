@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <title>Drawing App</title>
+</head>
+<body>
+  <div class="container">
+    <div class="draw">
+        <canvas 
+        id="Canvas" height="500px" width="700px">
+        </canvas>
+    </div>
+
+    <div class="panel">
+      <div class="controls">
+        <button class="less" id="less"> - </button>
+        <span class="number" id="number">30</span>
+        <button class="plus" id="plus"> + </button>
+        <input type="color" id="colors">
+      </div>
+
+      <div class="icon-clear">
+        <button id="clear">
+          <i class="ph ph-trash"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+  font-family: "Poppins", sans-serif;
+
+  background-color: #edede9;
+}
+
+.pw-container {
+  background-color: #0d1321;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  padding: 2rem 2rem;
+  border-radius: 0.3rem;
+  border: 2px solid white;
+}
+
+.pw-header {
+  background-color: #edede9;
+  color: #101012;
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.pw-body-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.6rem;
+
+  color: #f0ebd8;
+
+
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 0.4rem;
+  margin-bottom: 0.3rem;
+}
+
+.controls label {
+  cursor: pointer;
+}
+
+.btnGen {
+  width: 100%;
+  padding: 1rem;
+
+  color: #f0ebd8;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #3e5c76;
+
+  border: none;
+  border-radius: 0.3rem;
+
+  cursor: pointer;
+
+}
+
+#pw-length input {
+  padding: .3rem;
+  width: 60px;
+}
+
+.btnGen:hover {
+  background-color: #2e4458;
+}
+
+
+#pw-display {
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+
+  opacity: 0.5;
+}

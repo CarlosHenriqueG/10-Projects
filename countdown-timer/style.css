@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  min-width: 100%;
+  font-family: 'Poppins', sans-serif; 
+  overflow: hidden;
+
+
+  background: url(assets/zo-razafindramamba-H7pP1T-f62k-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.app {
+  width: 100%;
+  padding: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-bottom: 5rem;
+}
+
+h1 {
+  margin-bottom: 2.4rem;
+
+  color: #212529;
+
+  letter-spacing: 0.5rem;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 2.4rem;
+}
+
+.count-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.months-text, .days-text, .hours-text,
+.minutes-text, .seconds-text {
+  font-weight: 600;
+  font-size: 1.3rem;
+
+  color: #212529;
+
+  letter-spacing: .2rem;
+
+
+}
+
+#months, #days, #hours,
+#minutes, #seconds {
+  color: #376b9e;
+
+  font-weight: 800;
+  font-size: 1.9rem;
+
+  margin-bottom: 0.2rem;
+}
